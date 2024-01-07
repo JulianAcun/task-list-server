@@ -12,8 +12,6 @@ app.get('/tasks', (req, res) => {
     // Puedes agregar más tareas aquí
   ];
 
-  res.json(taskList);
-});
 
 app.listen(port, () => {
   console.log(`Server is running at http://localhost:${port}`);
